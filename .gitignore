@@ -1,0 +1,27 @@
+# --- generated figures ------------------------------------------------------
+# `python raincloud.py` rewrites these in the repo root on every run; the
+# smaller copies the README embeds live in docs/ and stay tracked
+/raincloud_*.png
+/raincloud_*.svg
+/raincloud_*.pdf
+/raincloud_*.eps
+
+# --- python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- environments -----------------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- editors / os -----------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp
