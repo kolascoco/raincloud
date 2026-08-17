@@ -102,3 +102,16 @@ pandas, numpy.
 pip install -r requirements.txt
 python raincloud.py     # writes the demo figures
 ```
+
+## AI use disclosure
+
+This package was written with AI assistance. The code, docstrings and this
+README were drafted by Claude (Anthropic's Claude Code, Opus 5) in an
+interactive session; the requirements, design decisions and visual review at
+each step were the author's. Every figure in the README was rendered and
+inspected before being committed, and the behaviour was checked against a set
+of cases covering both orientations, hue splits, missing group levels, the
+swarm-to-strip fallback on large samples, and both box styles.
+
+Commits carry a `Co-Authored-By: Claude Opus 5` trailer, so the model's
+contribution is visible in `git log` as well.
