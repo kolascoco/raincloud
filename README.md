@@ -15,13 +15,6 @@ raincloud(df, x="Angle Deviation", y="Group")               # one axes
 raincloud_grid(df, ["Angle Deviation", "Duration"], "Group")  # one panel per measure
 ```
 
-## Vertical
-
-`orient="v"` turns the row into a column — points left, box centre, cloud
-leaning right. Both `raincloud()` and `raincloud_grid()` take it.
-
-![vertical raincloud](docs/example_vertical.png)
-
 ## What it does that seaborn does not
 
 - **Half violins.** `violinplot(inner=None)` draws a symmetric body; the polygon
