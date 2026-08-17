@@ -1,4 +1,4 @@
-# fullplots
+# raincloud plots
 
 Raincloud plots for seaborn: a half violin, a letter-value box and a swarm of
 the raw observations, stacked in one category slot. It is the layout you get in
