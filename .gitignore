@@ -20,8 +20,16 @@ dist/
 venv/
 env/
 
-# --- editors / os -----------------------------------------------------------
-.DS_Store
+# --- editors ----------------------------------------------------------------
 .vscode/
 .idea/
 *.swp
+
+# --- macOS ------------------------------------------------------------------
+# a bare name matches at every level, so this covers docs/.DS_Store too
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
